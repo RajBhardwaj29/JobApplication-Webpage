@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="apply_box">
+            <h1>Job Application
+                <span class="title_small">(Web)</span>
+            </h1>
+
+            <form action="mailto:info@rajbhartendu7@gmail.com" method="post" enctype="text/plain">
+
+                <div class="form_control">
+                    <label> First Name </label><br>
+                    <input type="text" name="firstName" id="firstName"><br>
+                </div>
+
+                <div class="form_control">
+                    <label> Last Name </label><br>
+                    <input type="text" name="lastName" id="lastName"><br>
+                </div>
+
+                <div class="form_control">
+                    <label> Email </label><br>
+                    <input type="text" name="email" id="email"><br>
+                </div>
+
+                <div class="form_control">
+                    <label>Select Job Role </label><br>
+                    <select name="job-role" id="job-role">
+                        <option value="">Select Job Role</option>
+                        <option value="frontend">FrontEnd Developer</option>
+                        <option value="backend">BackEnd Developer</option>
+                        <option value="full-stack">Full Stack Developer</option>
+                        <option value="ui_ux">UI UX Developer</option>
+                    </select>
+                </div>
+
+                <div class="textarea-control">
+                    <label> Address: </label><br>
+                    <textarea name="yourAddress" id="address" cols="50" rows="4"></textarea><br>
+                </div>
+
+                <div class="form_control">
+                    <label> City </label><br>
+                    <input type="text" name="selectCity" id="selectCity"><br>
+                </div>
+
+                <div class="form_control">
+                    <label> Pincode </label><br>
+                    <input type="text" name="selectPin" id="selectPin"><br>
+                </div>
+
+                <div class="form_control">
+                    <label for=""> Start Date </label><br>
+                    <input type="date" name="" id="date"><br>
+                </div>
+
+                <div class="form_control">
+                    <label for=""> Upload your CV </label>
+                    <input type="file" id="cv" name="upload"><br>
+                </div>
+
+                <br>
+                <input type="submit" value="Apply Now" name="" id="submitBtn">
+
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
